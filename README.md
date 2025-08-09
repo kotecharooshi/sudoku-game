@@ -13,7 +13,7 @@ A modern, beautiful Sudoku puzzle game with both web and Android versions.
 
 ## 🎮 Play Online
 
-Visit our website to learn more about the game: **[Play Sudoku Master](https://kotecharooshi.github.io/sudoku-game/index.html)**
+Visit our website to learn more about the game: **[Play Sudoku Master](https://kotecharooshi.github.io/sudoku-game/raw/main/index.html)**
 
 ## 📱 Download Android App
 
@@ -112,5 +112,6 @@ Feel free to fork this repository and submit pull requests for any improvements!
 
 
 **Enjoy playing Sudoku Master! 🧩✨**
+
 
 
