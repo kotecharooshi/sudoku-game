@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Master - Modern Puzzle Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-puzzle-piece"></i>
+                <span>Sudoku Master</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#game" class="nav-link">Play Now</a></li>
+                <li><a href="#download" class="nav-link">Download</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Master the Art of
+                    <span class="gradient-text">Sudoku</span>
+                </h1>
+                <p class="hero-description">
+                    Challenge your mind with our modern Sudoku game featuring beautiful design, 
+                    multiple difficulty levels, and real-time scoring.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#game" class="btn btn-primary">
+                        <i class="fas fa-play"></i>
+                        Play Now
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="sudoku-preview">
+                    <div class="grid-container">
+                        <!-- Sudoku grid preview -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Our Sudoku?</h2>
+                <p class="section-subtitle">Experience the perfect blend of challenge and entertainment</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Smart Difficulty</h3>
+                    <p>Three difficulty levels: Easy, Medium, and Hard. Perfect for beginners and experts alike.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Smart Hints</h3>
+                    <p>Get helpful hints when you're stuck. Limited hints add strategy to your gameplay.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Score System</h3>
+                    <p>Earn points for correct moves and compete with yourself to improve your score.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Time Tracking</h3>
+                    <p>Track your solving time and challenge yourself to complete puzzles faster.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Optimized</h3>
+                    <p>Beautiful responsive design that works perfectly on all devices.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Modern UI</h3>
+                    <p>Clean, modern interface with smooth animations and intuitive controls.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Section -->
+    <section id="game" class="game-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ready to Play?</h2>
+                <p class="section-subtitle">Download our Android app and start solving puzzles today!</p>
+            </div>
+            <div class="game-container">
+                <div class="game-preview">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="app-interface">
+                                <div class="app-header">
+                                    <div class="timer">Time: 05:23</div>
+                                    <div class="score">Score: 150</div>
+                                </div>
+                                <div class="sudoku-grid-preview">
+                                    <!-- Mini sudoku grid -->
+                                </div>
+                                <div class="app-controls">
+                                    <button class="app-btn easy">Easy</button>
+                                    <button class="app-btn medium">Medium</button>
+                                    <button class="app-btn hard">Hard</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <h3>Get the App</h3>
+                    <p>Download our Sudoku Master app for the best gaming experience on your Android device.</p>
+                    <div class="download-buttons">
+                        <a href="#" class="download-btn">
+                            <i class="fab fa-google-play"></i>
+                            <div class="download-text">
+                                <span class="download-label">GET IT ON</span>
+                                <span class="download-store">Google Play</span>
+                            </div>
+                        </a>
+                        <a href="my-sudoku.apk" class="download-btn" download>
+                            <i class="fab fa-android"></i>
+                            <div class="download-text">
+                                <span class="download-label">DOWNLOAD</span>
+                                <span class="download-store">APK File</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section-full">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Download Sudoku Master</h2>
+                <p class="section-subtitle">Get the full Android app experience with all features</p>
+            </div>
+            <div class="download-options">
+                <div class="download-card">
+                    <div class="download-icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <h3>Android APK</h3>
+                    <p>Direct download for Android devices. Install and play immediately!</p>
+                    <div class="download-info">
+                        <span class="version">Version: 1.0.0</span>
+                        <span class="size">Size: ~15 MB</span>
+                    </div>
+                    <a href="my-sudoku.apk" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i>
+                        Download APK
+                    </a>
+                </div>
+                <div class="download-card">
+                    <div class="download-icon">
+                        <i class="fab fa-google-play"></i>
+                    </div>
+                    <h3>Google Play Store</h3>
+                    <p>Download from the official Google Play Store for automatic updates.</p>
+                    <div class="download-info">
+                        <span class="version">Coming Soon</span>
+                        <span class="size">Auto Updates</span>
+                    </div>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fas fa-external-link-alt"></i>
+                        Coming Soon
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <span>Sudoku Master</span>
+                    </div>
+                    <p>Master the art of Sudoku with our modern, feature-rich puzzle game.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#game">Play Now</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sudoku Master. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
