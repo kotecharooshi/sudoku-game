@@ -13,18 +13,14 @@ A modern, beautiful Sudoku puzzle game with both web and Android versions.
 
 ## 🎮 Play Online
 
-Visit our website to learn more about the game: **[Play Sudoku Master](https://yourusername.github.io/your-repo-name)**
-
-> 📝 **Note**: Replace `yourusername` and `your-repo-name` with your actual GitHub username and repository name
+Visit our website to learn more about the game: **[Play Sudoku Master](https://kotecharooshi.github.io/sudoku-game)**
 
 ## 📱 Download Android App
 
 ### Direct APK Download
 Click the link below to download the APK file directly:
 
-**[📥 Download Sudoku Master APK](https://github.com/yourusername/your-repo-name/raw/main/downloads/my-sudoku.apk)**
-
-> 📝 **Note**: Replace `yourusername` and `your-repo-name` with your actual GitHub username and repository name
+**[📥 Download Sudoku Master APK](https://github.com/kotecharooshi/sudoku-game/raw/main/my-sudoku.apk)**
 
 ### Installation Instructions
 1. Download the APK file from the link above
@@ -47,9 +43,8 @@ sudoku-master/
 ├── index.html          # Main website
 ├── script.js          # Website JavaScript
 ├── styles.css         # Website styling
-├── downloads/
-│   ├── my-sudoku.apk  # Android APK file
-│   └── README.md      # Download instructions
+├── my-sudoku.apk      # Android APK file
+│── README.md           # Download instructions
 └── README.md          # This file
 ```
 
@@ -118,5 +113,6 @@ This project is open source and available under the [MIT License](LICENSE).
 Feel free to fork this repository and submit pull requests for any improvements!
 
 ---
+
 
 **Enjoy playing Sudoku Master! 🧩✨**
