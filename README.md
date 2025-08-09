@@ -104,10 +104,6 @@ If you encounter any issues:
 2. Check that you have enough storage space (minimum 10MB)
 3. Restart your device if the installation fails
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 🤝 Contributing
 
 Feel free to fork this repository and submit pull requests for any improvements!
@@ -116,3 +112,4 @@ Feel free to fork this repository and submit pull requests for any improvements!
 
 
 **Enjoy playing Sudoku Master! 🧩✨**
+
